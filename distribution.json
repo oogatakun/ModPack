@@ -1,0 +1,2914 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "modクラフト-1.19.2",
+      "name": "modクラフト (Minecraft 1.19.2)",
+      "description": "modクラフト Running Minecraft 1.19.2 (Forge v43.3.13)",
+      "icon": "https://media.discordapp.net/attachments/1220364322992291850/1236675446461038624/LoadingText.png?ex=6657da82&is=66568902&hm=11b500c922c04023c6c05e729a66a05b5b3290af775512b07661b7ec11d11ba1&=&format=webp&quality=lossless&width=350&height=350",
+      "version": "1.0.0",
+      "address": "tyaromars/net",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.3.13",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7376,
+            "MD5": "4abd97092198424a36b1e81dff7d4b48",
+            "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.3.13/lowcodelanguage-1.19.2-43.3.13.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.3.13",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15504,
+                "MD5": "eb17309b8baa94d12faa907d0d7d4e09",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/versions/1.19.2-forge-43.3.13/1.19.2-forge-43.3.13.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.3.13",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 113642,
+                "MD5": "9a57a35a8f5b0f639b2188dd23b08b0b",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.3.13/fmlcore-1.19.2-43.3.13.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.3.13",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16493,
+                "MD5": "c04fe9e00c47a167d9d424261f1e123f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.3.13/javafmllanguage-1.19.2-43.3.13.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.3.13",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4984,
+                "MD5": "e5898498deee5f205300ade8966a0a06",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.3.13/mclanguage-1.19.2-43.3.13.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.13:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2651100,
+                "MD5": "686c294ca35223d5303188b70eb2f07f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forge/1.19.2-43.3.13/forge-1.19.2-43.3.13-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.13:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5419290,
+                "MD5": "108e83968d29d55c746567a3d0e511a7",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forge/1.19.2-43.3.13/forge-1.19.2-43.3.13-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.3.13",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261213,
+                "MD5": "db80c51c2101a6764f50ec9c7047e08b",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.3.13/fmlloader-1.19.2-43.3.13.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.minecraft.scalar.cutall:cutallsmp:2.5.2@jar",
+          "name": "CutAll SMP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27399,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/[1.19.2][forge43.1.1]mod_CutAllSMP_v2.5.2%20(1).jar",
+            "MD5": "8d76870bf6bbe96b769d680231aae50d"
+          }
+        },
+        {
+          "id": "net.minecraft.scalar.mineall:mineallsmp:2.6.7@jar",
+          "name": "MineAll SMP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33473,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/[1.19.2][forge43.1.1]mod_MineAllSMP_v2.6.6.jar",
+            "MD5": "87cdd3fbb34edda82e73dca807af2469"
+          }
+        },
+        {
+          "id": "net.minecraft:storagebox:3.2.4@jar",
+          "name": "Storage Box",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 99628,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/[1.19.2][forge43.1.1]mod_StorageBox_v3.2.4.jar",
+            "MD5": "f95b9add6fbb659f1ff1fa2a1f16f93e"
+          }
+        },
+        {
+          "id": "net.geforcemods:securitycraft:1.9.6.1@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3664060,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/[1.19.2]%20SecurityCraft%20v1.9.6.1.jar",
+            "MD5": "9a8f703f40223bdd8eff9f0d1d6fda84"
+          }
+        },
+        {
+          "id": "com.choicetheorem:ctov:3.1.3@jar",
+          "name": "ChoiceTheorem's Overhauled Villages",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2663441,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/[Universal]CTOV-v3-1-3.jar",
+            "MD5": "3a46cfb49b47da6eaa6ffc21bf132297"
+          }
+        },
+        {
+          "id": "com.teamabnormals.abnormals_delight.core:abnormals_delight:4.1.2@jar",
+          "name": "Abnormals Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 611209,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/abnormals_delight-1.19.2-4.1.2.jar",
+            "MD5": "f8b04fa82225df7ab6e791eed3f26bc5"
+          }
+        },
+        {
+          "id": "com.yogpc.qp:quarryplus:1192.3.48@jar",
+          "name": "QuarryPlus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1028797,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/AdditionalEnchantedMiner-1.19.2-1192.3.48.jar",
+            "MD5": "388f6603e73b7d9b4d3168f074b792da"
+          }
+        },
+        {
+          "id": "com.firemerald:additionalplacements:1.8.0@jar",
+          "name": "Additional Placements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 266701,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/AdditionalPlacements-1.19.2-1.8.0.jar",
+            "MD5": "16222d4ce8612b80606b4b0e43edab96"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:5.2.13@jar",
+          "name": "Ambient Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77110785,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/AmbientSounds_FORGE_v5.2.13_mc1.19.2.jar",
+            "MD5": "653b0dc7669700ff68dee49bc8644229"
+          }
+        },
+        {
+          "id": "com.pfpmc.apexguns.core:apexguns:0.0.1@jar",
+          "name": "Apex Guns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 608971,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/ApexGunAddon-1.19.x-0.0.1.jar",
+            "MD5": "8e4457bbd86953112a7eadc45fcfcf64"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.2+mc1.19@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46991,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/appleskin-forge-mc1.19-2.4.2.jar",
+            "MD5": "3cd43c763f6e9a244a115606faaecf4f"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:6.6.92@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 559099,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/architectury-6.6.92-forge.jar",
+            "MD5": "ddf52fbc5ce9e2d1e6779d29f74cb573"
+          }
+        },
+        {
+          "id": "io.github.foundationgames:automobility:0.4.2+1.19.2-forge@jar",
+          "name": "Automobility",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1051920,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/automobility-0.4.2+1.19.2-forge.jar",
+            "MD5": "5a49f58e47a5b3339a0e0b51f657b4fe"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:backpacked:2.1.13@jar",
+          "name": "Backpacked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 390025,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/backpacked-forge-1.19.2-2.1.13.jar",
+            "MD5": "5f49879b183595e331973f8125600106"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:4.6.0@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 314084,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/balm-forge-1.19.2-4.6.0.jar",
+            "MD5": "009bdfde01e742c98cfe71babbd58fce"
+          }
+        },
+        {
+          "id": "net.bettercombat:bettercombat:1.7.1+1.19@jar",
+          "name": "Better Combat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 904072,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/bettercombat-forge-1.7.1+1.19.jar",
+            "MD5": "9ee1b674b73381a188bbb4ce1c7db375"
+          }
+        },
+        {
+          "id": "com.teamabnormals.blueprint.core:blueprint:6.1.0@jar",
+          "name": "Blueprint",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 961002,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/blueprint-1.19.2-6.1.0.jar",
+            "MD5": "493aacb2671f7b1ae40c97e10e58c7bd"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:16.3.20@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 320523,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/Bookshelf-Forge-1.19.2-16.3.20.jar",
+            "MD5": "4896952e08b599f8e62e3ce8e98aeab3"
+          }
+        },
+        {
+          "id": "net.darkhax:botanypots:9.0.38@jar",
+          "name": "BotanyPots",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 863946,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/BotanyPots-Forge-1.19.2-9.0.38.jar",
+            "MD5": "39f1870f555c015993ff795995d25bd2"
+          }
+        },
+        {
+          "id": "umpaz.brewinandchewin:brewinandchewin:1.19-2.0@jar",
+          "name": "Brewin' and Chewin'",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 366890,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/BrewinAndChewin-1.19-2.0.jar",
+            "MD5": "fb576be9f7e52a3bb68c042b12341613"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.2.23@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 440569,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/carryon-forge-1.19.2-2.1.2.23.jar",
+            "MD5": "a07a32c8d0d66ac6e7eded211e1584d9"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre35@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2209834,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/cfm-7.0.0-pre35-1.19.2.jar",
+            "MD5": "cd3ceae9615012f62d84fa1af860a1b0"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.guns:cgm:1.3.7@jar",
+          "name": "MrCrayfish's Gun Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1656454,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/cgm-forge-1.19.2-1.3.7.jar",
+            "MD5": "269c9133957f1c2b7edcbc460b2bfbb7"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.10.32@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 203875,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/optionalon/chat_heads-0.10.32-forge-1.19.2.jar",
+            "MD5": "bb231a2b8ee0b48f3ee28fd1f6248e63"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.redstonegames:chefsdelight:1.0.2-forge-1.19.2@jar",
+          "name": "Chefs Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 84789,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/chefs-delight-1.0.2-forge-1.19.2.jar",
+            "MD5": "b9bea8ec60a3fed3ceebc4db5f8048b8"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.1.3@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3064068,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/citadel-2.1.3-1.19.jar",
+            "MD5": "da90c62c0d8a6402b6506950387193e8"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:8.3.115@jar",
+          "name": "Cloth Config v8 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1163389,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/cloth-config-8.3.115-forge.jar",
+            "MD5": "82d8057bdb2080bbc55bde62e07a25fe"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:13.3.4@jar",
+          "name": "CookingForBlockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 692127,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/cookingforblockheads-forge-1.19.2-13.3.4.jar",
+            "MD5": "9b7776ecb47ab02c6c85f26b85761c97"
+          }
+        },
+        {
+          "id": "cn.mcmod:corn_delight:1.0.3-1.19.2@jar",
+          "name": "Corn Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158100,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/corn_delight-1.0.3-1.19.2.jar",
+            "MD5": "a1a6414310bdb0370350a7c54c071008"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.f@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14913092,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/create-1.19.2-0.5.1.f.jar",
+            "MD5": "668b745f59e48c87ee4210ba8edb3993"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.19.2-1.2.3@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1517070,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/createaddition-1.19.2-1.2.3.jar",
+            "MD5": "6b725cc3477422579f8f662da82257c7"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.9.3@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 917084,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/CreativeCore_FORGE_v2.9.4_mc1.19.2.jar",
+            "MD5": "a38e11e6c304a0c54b0a0ada5d5d718e"
+          }
+        },
+        {
+          "id": "com.ncpbails:culturaldelights:0.15.5@jar",
+          "name": "Cultural Delights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 230111,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/culturaldelights-1.19.2-0.15.5.jar",
+            "MD5": "ba61014c61154774d2e95eada7e85cc3"
+          }
+        },
+        {
+          "id": "net.brnbrd:delightful:3.4.1@jar",
+          "name": "Delightful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 952298,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/Delightful-1.19.2-3.4.1.jar",
+            "MD5": "2a436706e62eb85bd94d19b262712b93"
+          }
+        },
+        {
+          "id": "com.github.kay9:dragonmounts:1.1.4a@jar",
+          "name": "Dragon Mounts: Legacy",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 493789,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/dragonmounts-1.19.2-1.1.4a.jar",
+            "MD5": "541989d6ccd5fe83bc9c1309ac5354c9"
+          }
+        },
+        {
+          "id": "net.easyhammers:easyhammers:4.0.0@jar",
+          "name": "Easy Hammers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 148149,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/easyhammers-1.19.2-4.0.0.jar",
+            "MD5": "aa829ad07c21040562cc2812f72ace08"
+          }
+        },
+        {
+          "id": "net.mcreator:eggdelight:1.2@jar",
+          "name": "Egg Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 599158,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/EggDelight-v1.2-1.19.2.jar",
+            "MD5": "e7854eb39193710ed03fc597874bb6d0"
+          }
+        },
+        {
+          "id": "com.chaosthedude:endermail:1.19.2-1.2.6@jar",
+          "name": "Ender Mail",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142555,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/EnderMail-1.19.2-1.2.6.jar",
+            "MD5": "d493814a5814edbb117ac46fa02a8876"
+          }
+        },
+        {
+          "id": "cn.foggyhillside.endsdelight:ends_delight:1.19.2-1.2.1@jar",
+          "name": "End's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 260717,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/endsdelight-1.19.2-1.2.1.jar",
+            "MD5": "c2d0bf94ff43b4c3e95cdd254a79d0b7"
+          }
+        },
+        {
+          "id": "compasses.expandedstorage.impl:expandedstorage:8.4.0-beta.1@jar",
+          "name": "Expanded Storage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 718156,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/expandedstorage-8.4.0-beta.1+1.19.2-forge.jar",
+            "MD5": "f7714bf9a17b1d0c2291902cd24648ef"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.19.2-1.2.4@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2769499,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/FarmersDelight-1.19.2-1.2.4.jar",
+            "MD5": "33309d175ba1410ac918f7ceac869a34"
+          }
+        },
+        {
+          "id": "umpaz.farmersrespite:farmersrespite:1.19-2.0@jar",
+          "name": "Farmer's Respite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 493349,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/FarmersRespite-1.19-2.0.jar",
+            "MD5": "92871e5a159179e1a264b92394a57bef"
+          }
+        },
+        {
+          "id": "shadows.fastfurnace:fastfurnace:7.0.0@jar",
+          "name": "FastFurnace",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5477,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/FastFurnace-1.19.2-7.0.0.jar",
+            "MD5": "5999d492e5731cde00560b25ca85aa51"
+          }
+        },
+        {
+          "id": "shadows.fastsuite:fastsuite:4.1.1@jar",
+          "name": "Fast Suite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19301,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/FastSuite-1.19.2-4.1.1.jar",
+            "MD5": "80ea6c54a57792222ce004cff6e62f96"
+          }
+        },
+        {
+          "id": "shadows.fastbench:fastbench:7.1.4@jar",
+          "name": "Fast Workbench",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27492,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/FastWorkbench-1.19.2-7.1.4.jar",
+            "MD5": "92944c75631a7f4c21ebf53ff50486e8"
+          }
+        },
+        {
+          "id": "com.wildfire.main:wildfire_gender:1.19-3.0.0@jar",
+          "name": "Wildfire's Female Gender Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 232000,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/Female-Gender-Mod-forge-1.19.1-3.0.1.jar",
+            "MD5": "10a5000900664ec847e782117439c8a5"
+          }
+        },
+        {
+          "id": "net.mcreator.festivedelight:festive_delight:1.3.0@jar",
+          "name": "Festive Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 250268,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/Festive_Delight_1.3_Forge_1.19.2.jar",
+            "MD5": "186a25c1878485ed51bb03fdc0dfbb0c"
+          }
+        },
+        {
+          "id": "bre2el.fpsreducer:fpsreducer:1.19.2-2.1@jar",
+          "name": "FPS Reducer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123098,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/FpsReducer2-forge-1.19.2-2.1.jar",
+            "MD5": "eb3eacbd713dbd9b333cfa210a700a35"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.6.16@jar",
+          "name": "Framework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291544,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/framework-forge-1.19.2-0.6.16.jar",
+            "MD5": "b9d678aada430d35c7193497402ad67b"
+          }
+        },
+        {
+          "id": "de.maxhenkel:gravestone:1.19.2-1.0.15@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 313167,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/gravestone-forge-1.19.2-1.0.15.jar",
+            "MD5": "bc2fd4e0c74ea703dbf9b0b2c93d0aca"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:1.19.2-2.1.13+build.beta-3@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21620315,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/iceandfire-1.19.2-2.1.13-beta-3.jar",
+            "MD5": "32d8f8ee56ecce9b923b5f51556a1a19"
+          }
+        },
+        {
+          "id": "immersive_aircraft:immersive_aircraft:0.7.5+1.19.2@jar",
+          "name": "Immersive Aircraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1573197,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/immersive_aircraft-0.7.5+1.19.2-forge.jar",
+            "MD5": "c1679ae1f24c3f91566434aa8310b701"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.10@jar",
+          "name": "Inventory Profiles Next",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1449603,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/InventoryProfilesNext-forge-1.19-1.10.10.jar",
+            "MD5": "cb39acf5f154eb1d7dead87c993bdbce"
+          }
+        },
+        {
+          "id": "ironfurnaces:ironfurnaces:3.6.5@jar",
+          "name": "Iron Furnaces",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601448,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/ironfurnaces-1.19.2-3.6.5.jar",
+            "MD5": "6256aa278bb431b802ebca4255903efa"
+          }
+        },
+        {
+          "id": "net.crow.italiandelight:italian_delight:1.19.2-2.0@jar",
+          "name": "Italian Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285831,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/italiandelight-1.19.2-2.0.jar",
+            "MD5": "830944459a1282649037a7e208f51862"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:11.6.0.1019@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1090832,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1019.jar",
+            "MD5": "9715fec8116470c3c88d27b7efd4ebed"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.8@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7091961,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/journeymap-1.19.2-5.9.8-forge.jar",
+            "MD5": "ec7cf9496bb5e7b91254738144419270"
+          }
+        },
+        {
+          "id": "de.keksuccino:justzoom:1.0.1@jar",
+          "name": "Just Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7849,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/justzoom_forge_1.0.1-1_MC_1.19.jar",
+            "MD5": "ae41761622ccb21c157f786685ec0d2b"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 628963,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/konkrete_forge_1.8.0_MC_1.19-1.19.2.jar",
+            "MD5": "7c77732a0e836fadd6a359d13a333160"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:3.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7365976,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/kotlinforforge-3.12.0-all.jar",
+            "MD5": "9026097ff419bd2d8a10f2e5755d4888"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14972,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/lazydfu-1.19-1.0.2.jar",
+            "MD5": "e395095b221c320c50105e8d447c6ce0"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc:libipn:4.0.2@jar",
+          "name": "LibIPN",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 694138,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/libIPN-forge-1.19-4.0.2.jar",
+            "MD5": "daeedf8e2eb00a4ab38dfc17ae23d01e"
+          }
+        },
+        {
+          "id": "net.montoyo.mcef:forgecef:1.2.5@jar",
+          "name": "MCEF",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 395062,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/mcef-1.2.5.jar",
+            "MD5": "54cd59ffca34be8e156392697e120a5f"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.1.0@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1081340,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/mcw-doors-1.1.0forge-mc1.19.2.jar",
+            "MD5": "1559df0b417648fcfce18e3a476b299a"
+          }
+        },
+        {
+          "id": "com.sammy.minersdelight:miners_delight:1.19.2-1.1.2@jar",
+          "name": "Miner's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 396505,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/miners_delight-1.19.2-1.1.2.jar",
+            "MD5": "a18b5498e4945e6783358137e2371a8a"
+          }
+        },
+        {
+          "id": "net.minerslib:miners_lib:2.0.0@jar",
+          "name": "Miner's Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242231,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/miners-lib-1.19.2-2.0.0.jar",
+            "MD5": "5343a84e01301b6a1b3a7f80131f6921"
+          }
+        },
+        {
+          "id": "moguns:moguns:1.9.2@jar",
+          "name": "Mo' Guns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1853642,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/MoGuns-1.9.2-1.19.2.jar",
+            "MD5": "43e426fa0d85a4dfbefd1a2cd7fe1337"
+          }
+        },
+        {
+          "id": "cn.mcmod_mmf.mmlib:mysterious_mountain_lib:1.2.3-1.19.2@jar",
+          "name": "Mysterious Mountain Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 296306,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/mysterious_mountain_lib-1.2.3-1.19.2.jar",
+            "MD5": "bb5a6fe8dc697791fcf526005440604f"
+          }
+        },
+        {
+          "id": "vazkii.neat:neat:1.19-32@jar",
+          "name": "Neat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23861,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/optionalon/Neat-1.19-32.jar",
+            "MD5": "99a105dd7d9ec551544171d721963428"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "umpaz.nethersdelight:nethersdelight:1.19-3.0@jar",
+          "name": "Nether's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 346037,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/NethersDelight-1.19-3.0.jar",
+            "MD5": "4a2de9d789bd5b7fa2359cd984b370ec"
+          }
+        },
+        {
+          "id": "virtuoel.no_fog:no_fog:1.3.2+1.19.2-forge@jar",
+          "name": "No Fog",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56473,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/NoFog-1.3.2_1.19.2-forge.jar",
+            "MD5": "763721bb15cbc73a8bbe1fcb90218690"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.7.3@jar",
+          "name": "NotEnoughAnimations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 425087,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/notenoughanimations-forge-1.7.3-mc1.19.2.jar",
+            "MD5": "c80ad20eb08d36451ae64038f79b702a"
+          }
+        },
+        {
+          "id": "com.scouter:oceansdelight:1.0.2-1.19.2@jar",
+          "name": "Ocean's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 105756,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/oceansdelight-1.0.2-1.19.2.jar",
+            "MD5": "9a92a3780cb1805cf9f20e2a8d3eb1e6"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.9@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3499284,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/oculus-mc1.19.2-1.6.9.jar",
+            "MD5": "5c62ae78fcc5baba124c9ac7f950597e"
+          }
+        },
+        {
+          "id": "oreexcavation.core:oreexcavation:1.11.166@jar",
+          "name": "OreExcavation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 283533,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/OreExcavation-1.11.166.jar",
+            "MD5": "256c12add0e73bc01125c48d7d01be73"
+          }
+        },
+        {
+          "id": "com.corosus:out_of_sight:1.19.2-1.0.2@jar",
+          "name": "Out of Sight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13875,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/out_of_sight-1.19.2-1.0.2.jar",
+            "MD5": "432bd688081b187f66a6fbab23bc689d"
+          }
+        },
+        {
+          "id": "com.alrex:parcool:1.19.2-3.2.1.0-R@jar",
+          "name": "ParCool!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 832018,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/ParCool-1.19.2-3.2.1.0-R.jar",
+            "MD5": "de07381fe28ee3be7f86302f88cb31bd"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:7.4.0@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 252226,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/Placebo-1.19.2-7.4.0.jar",
+            "MD5": "2a30e60554f15a9c15932a5d0601c818"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181297,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/player-animation-lib-forge-1.0.2.jar",
+            "MD5": "32be10092ee8672a2e3a36a019007a96"
+          }
+        },
+        {
+          "id": "team.creative:playerrevive:2.0.14@jar",
+          "name": "PlayerRevive",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5291957,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/PlayerRevive_FORGE_v2.0.14_mc1.19.2.jar",
+            "MD5": "80adee29e1acd489ed926850100af2bf"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.19.2-1.6.4.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7176267,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/PresenceFootsteps-1.19.2-1.6.4.1-forge.jar",
+            "MD5": "030a78b2a08a5c2c35ffe9d55776b9f1"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:radium:0.8.2@jar",
+          "name": "Radium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511586,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/radium-0.8.2.jar",
+            "MD5": "c764d38f2e1d1293f705449cb6f485bf"
+          }
+        },
+        {
+          "id": "net.caffeinemc.phosphor:radon:0.8.2@jar",
+          "name": "Radon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98778,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/radon-0.8.2.jar",
+            "MD5": "e92c2682fb7208f12c9409a68b12a20d"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra:rubidium_extra:0.4.19+mc1.19.2-build.105@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317160,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/rubidium-extra-0.4.19+mc1.19.2-build.105.jar",
+            "MD5": "625cd59e097bd63998d08c418a715fdc"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.6.2c@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1407451,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/rubidium-mc1.19.2-0.6.2c.jar",
+            "MD5": "b9d54d5171598463ef4456083eeb3ce8"
+          }
+        },
+        {
+          "id": "generated.forgemod:scalablecatsforce:2.13.10-build-10-with-library@jar",
+          "name": "ScalableCatsForce",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14343089,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/ScalableCatsForce-2.13.10-build-10-with-library.jar",
+            "MD5": "48086efaa406c84c2962aee63157be3a"
+          }
+        },
+        {
+          "id": "xyz.przemyk:simpleplanes:1.19.2-5.2.2@jar",
+          "name": "Simple Planes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 667977,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/simpleplanes-1.19.2-5.2.2.jar",
+            "MD5": "d527731f8429405c7f8b6531f347ca4c"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.6.4@jar",
+          "name": "3d-Skin-Layers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 472688,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/optionalon/skinlayers3d-forge-1.6.4-mc1.19.2.jar",
+            "MD5": "061c6da7c5390b2a7be33525184905e1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "mods.flammpfeil:slashblade:0.0.8@jar",
+          "name": "Slash Blade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3030466,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/SlashBlade-1.19.2-0.0.8.jar",
+            "MD5": "3a29e09b1adeb532504e780749fb8630"
+          }
+        },
+        {
+          "id": "com.talhanation:smallships:2.0.0-b1.1@jar",
+          "name": "Small Ships",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1778414,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/smallships-forge-1.19.2-2.0.0-b1.1.jar",
+            "MD5": "743ffad73bbd7910f9db74cbe867ba1c"
+          }
+        },
+        {
+          "id": "someassemblyrequired:some_assembly_required:1.19.2-3.0.3@jar",
+          "name": "Some Assembly Required",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368147,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/some-assembly-required-1.19.2-3.0.3.jar",
+            "MD5": "5051f2d91c9ba1d53957e2e3b5c424ce"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.19.2-1.0.18@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102263,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/soundphysics-forge-1.19.2-1.0.18.jar",
+            "MD5": "3682207a29510800639546cf5598364d"
+          }
+        },
+        {
+          "id": "tanukidecor:tanukidecor:19.2.1.0@jar",
+          "name": "Tanuki Decor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3004095,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/tanukidecor-19.2.1.0.jar",
+            "MD5": "98b2568da4119145c319c60789a61706"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods:reeses_sodium_options:1.0.7-mc1.19.2@jar",
+          "name": "TexTrue's Rubidium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212100,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/TextruesRubidiumOptions-1.0.7-mc1.19.2.jar",
+            "MD5": "a248359c110f22e6a3e7fffc6111849e"
+          }
+        },
+        {
+          "id": "quek.undergarden:undergarden:0.8.3@jar",
+          "name": "The Undergarden",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61227371,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/The_Undergarden-1.19.2-0.8.3.jar",
+            "MD5": "7f050c2da21b2e5575427f52d4205f98"
+          }
+        },
+        {
+          "id": "net.tropicraft:tropicraft:9.5.2@jar",
+          "name": "Tropicraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18857764,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/Tropicraft-9.5.2.jar",
+            "MD5": "22c540312d1b4b2263e5d8006a347185"
+          }
+        },
+        {
+          "id": "com.ketheroth:uncrafter:1.19.2-1.1.1@jar",
+          "name": "Uncrafter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87225,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/Uncrafter-1.19.2-1.1.1.jar",
+            "MD5": "163793305bd27c0eea9637df38ee6f11"
+          }
+        },
+        {
+          "id": "com.iwaliner:urushi:1.19.2-5.2.0@jar",
+          "name": "Urushi",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11519538,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/urushi-1.19.2-5.2.0.jar",
+            "MD5": "089b14d5d7b62efa2ce29f1a3f277b03"
+          }
+        },
+        {
+          "id": "net.mcreator.weaverscosmetics:weavers_cosmetics:1.0.9@jar",
+          "name": "Weaver's Cosmetics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1134278,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/Weavers-Cosmetics-Mod-Forge-1.19.2.jar",
+            "MD5": "675d2b0ae029d296a56d956ba16e83d2"
+          }
+        },
+        {
+          "id": "net.montoyo.wd:webdisplays:1.3.3@jar",
+          "name": "WebDisplays",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 790605,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/webdisplays-1.3.3.jar",
+            "MD5": "ca1c0e258a8ccad31223cf757ba1d028"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.12+6240-87f4ae1@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5650155,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/worldedit-mod-7.2.12.jar",
+            "MD5": "35923b44d8e81af4cb310b578f689b73"
+          }
+        },
+        {
+          "id": "bl4ckscor3.mod.xptome:xpbook:2.1.7@jar",
+          "name": "XP Tome",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19495,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/xptome-1.19-2.1.7.jar",
+            "MD5": "89f91a9bfaecb7769fa16a076156ae56"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.19.2-Forge-3.8.10@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 293336,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/YungsApi-1.19.2-Forge-3.8.10.jar",
+            "MD5": "d49eb0504b00d99320588c681535dcc3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.19.2-Forge-2.2.2@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 986299,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar",
+            "MD5": "94d1f62e9247c0f9ffe4aca5eb2eaad5"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.19.2-Forge-3.2.2@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 997998,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/YungsBetterDungeons-1.19.2-Forge-3.2.2.jar",
+            "MD5": "23c0c4dda050b0ac7b3893f6081d925d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.19.2-Forge-3.2.1@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 273478,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar",
+            "MD5": "e33f9e1cd9936cd6371f759f15470d9d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.19.2-Forge-1.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 820449,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar",
+            "MD5": "6bd55703a87dd8493412bca8bbfc459e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.19.2-Forge-2.1.1@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1510053,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/YungsBetterOceanMonuments-1.19.2-Forge-2.1.1.jar",
+            "MD5": "4cd617cda5ec5159825b5af4be82bbdc"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.19.2-Forge-3.2.0@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 409767,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar",
+            "MD5": "daa46493c03703aa9f6994548b43518f"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsextras:1.19.2-Forge-3.1.0@jar",
+          "name": "YUNG's Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 406444,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/YungsExtras-1.19.2-Forge-3.1.0.jar",
+            "MD5": "95e19cc18b2ff87e2138100ef077e849"
+          }
+        },
+        {
+          "id": "com.yuushya:yuushya:2.1.1@jar",
+          "name": "Yuushya",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16095503,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/forgemods/required/yuushya-1.19.2-forge-2.1.1.jar",
+            "MD5": "952f27ba09f2ad0d71fdac62f4f8fa63"
+          }
+        },
+        {
+          "id": "mcef_common.toml",
+          "name": "mcef_common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1492,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/files/config/mcef_common.toml",
+            "MD5": "aa0d64982fa64929da3831db33adc8f6",
+            "path": "config/mcef_common.toml"
+          }
+        },
+        {
+          "id": "Patrix_1.19_32x_basic.zip",
+          "name": "Patrix_1.19_32x_basic.zip",
+          "type": "File",
+          "artifact": {
+            "size": 50140510,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/files/resourcepacks/Patrix_1.19_32x_basic.zip",
+            "MD5": "2988cf6f45c9e7914814e999a40d99d7",
+            "path": "resourcepacks/Patrix_1.19_32x_basic.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/mod%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-1.19.2/files/servers.dat",
+            "MD5": "f9a7479873938f4007a08140509aeb93",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ちゃまダイエット企画-1.18.2",
+      "name": "ちゃまダイエット企画 (Minecraft 1.18.2)",
+      "description": "ちゃまダイエット企画 Running Minecraft 1.18.2 (Forge v40.2.21)",
+      "icon": "https://media.discordapp.net/attachments/1220364322992291850/1236675446461038624/LoadingText.png?ex=6657da82&is=66568902&hm=11b500c922c04023c6c05e729a66a05b5b3290af775512b07661b7ec11d11ba1&=&format=webp&quality=lossless&width=350&height=350",
+      "version": "1.0.0",
+      "address": "tyaromars.net",
+      "minecraftVersion": "1.18.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.2.21",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7382,
+            "MD5": "5bc47a3da66dcab9f3860bb8c0383c51",
+            "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.18.2-40.2.21",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15551,
+                "MD5": "d3ea6132baa1c87dcd859d485c7fc93c",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/versions/1.18.2-forge-40.2.21/1.18.2-forge-40.2.21.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.18.2-40.2.21",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 111968,
+                "MD5": "13a23cd0c61325fb3369f8369d0a49b6",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.2.21",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16292,
+                "MD5": "cf6f36febc5194f0a9549d8d6faed066",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.2.21",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4987,
+                "MD5": "c4aca63bf7854c77240569fa794768ed",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.2.21:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2540054,
+                "MD5": "33239abc725afb237ad036043538627c",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.2.21:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4367198,
+                "MD5": "703656e85bb6af1eb5557e0b65bb7468",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 13796791,
+                "MD5": "49d0ce9681f0ffd3c5a177f6ad45c80b",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10909711,
+                "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 9349972,
+                "MD5": "5de62b239289ed8e596b386766b87b41",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:1.0.8",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 85028,
+                "MD5": "102e2b8d94eec8aca0da835d2d3a359e",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/securejarhandler/1.0.8/securejarhandler-1.0.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:5.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42838,
+                "MD5": "c8b735cdfe9975a569626d72ad40377f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:4.0.15-4.x",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 22072,
+                "MD5": "8509a972b27c9f037d55c61e16fc051f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forgespi/4.0.15-4.x/forgespi-4.0.15-4.x.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:9.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 129301,
+                "MD5": "dca70519c3e53ac018d6f50c6f90cd38",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/modlauncher/9.1.3/modlauncher-9.1.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.0.0",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 7828,
+                "MD5": "1632575563bb6ead2ae3a087945f18be",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.2.21",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 257596,
+                "MD5": "31a242ef4cfd6bb6051f2d2adbf592cd",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.2.21/fmlloader-1.18.2-40.2.21.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.f@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14906855,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/create-1.18.2-0.5.1.f.jar",
+            "MD5": "a9fc645f2a4720f831794bd160b9bc0b"
+          }
+        },
+        {
+          "id": "shadows.fastsuite:fastsuite:3.0.2@jar",
+          "name": "Fast Suite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11185,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/FastSuite-1.18.2-3.0.2.jar",
+            "MD5": "45d1de27c9e69e614a3b480a03809bc8"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15445,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/lazydfu-1.0-1.18+.jar",
+            "MD5": "f90813b92c422c9f159c5e7d89167233"
+          }
+        },
+        {
+          "id": "noppes.mpm:moreplayermodels:1.18.2.20240405@jar",
+          "name": "More Player Models",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1141663,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/MorePlayerModels-1.18.2.20240405.jar",
+            "MD5": "3027f8fba2c5f5989b039e5b104753e9"
+          }
+        },
+        {
+          "id": "virtuoel.no_fog:no_fog:1.3.2+1.18.2-forge@jar",
+          "name": "No Fog",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54474,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/NoFog-1.3.2_1.18.2-forge.jar",
+            "MD5": "a508dfa29c81e33bff894d4e8f18ea9d"
+          }
+        },
+        {
+          "id": "com.alrex:parcool:1.18.2-3.2.1.2-R@jar",
+          "name": "ParCool!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 827620,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/ParCool-1.18.2-3.2.1.2-R.jar",
+            "MD5": "53058bbd00fc1b75a55d3e22ac5137a6"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:6.6.7@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 224281,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/Placebo-1.18.2-6.6.7.jar",
+            "MD5": "1b527f8b032cb04dcb5ae8152a1ef460"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:radium:0.7.10@jar",
+          "name": "Radium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 501920,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/radium-0.7.10.jar",
+            "MD5": "d72376e7e73009740ff0cc0f5618fd45"
+          }
+        },
+        {
+          "id": "net.caffeinemc.phosphor:radon:0.8.1@jar",
+          "name": "Radon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 103987,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/radon-0.8.1.jar",
+            "MD5": "7f3266e587447284839aecd9b1b5d8a4"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.5.6@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342466,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/rubidium-0.5.6.jar",
+            "MD5": "8ff531d3619c39e9e059e400f63f035b"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra.client:sodiumextra:0.4.18+mc1.18.2-build.86@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 342856,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/rubidium-extra-0.4.18+mc1.18.2-build.86.jar",
+            "MD5": "0a234916382d4d766bd9b2208c18310b"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods:reeses_sodium_options:1.0.8-mc1.18.2@jar",
+          "name": "TexTrue's Rubidium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212028,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/forgemods/required/TextruesRubidiumOptions-1.0.8-mc1.18.2.jar",
+            "MD5": "64f36ba3399d8ba168701dbfb5421035"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4324,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E3%81%A1%E3%82%83%E3%81%BE%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E4%BC%81%E7%94%BB-1.18.2/files/options.txt",
+            "MD5": "d11590bc62b02964ecd33cb11363aaf6",
+            "path": "options.txt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "体がちっちゃくなっちゃった！-1.18.2",
+      "name": "体がちっちゃくなっちゃった！ (Minecraft 1.18.2)",
+      "description": "体がちっちゃくなっちゃった！ Running Minecraft 1.18.2 (Forge v40.2.21)",
+      "icon": "https://media.discordapp.net/attachments/1220364322992291850/1236675446461038624/LoadingText.png?ex=6657da82&is=66568902&hm=11b500c922c04023c6c05e729a66a05b5b3290af775512b07661b7ec11d11ba1&=&format=webp&quality=lossless&width=350&height=350",
+      "version": "1.0.0",
+      "address": "tyaromars.net",
+      "minecraftVersion": "1.18.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.2.21",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7382,
+            "MD5": "5bc47a3da66dcab9f3860bb8c0383c51",
+            "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.18.2-40.2.21",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15551,
+                "MD5": "d3ea6132baa1c87dcd859d485c7fc93c",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/versions/1.18.2-forge-40.2.21/1.18.2-forge-40.2.21.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.18.2-40.2.21",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 111968,
+                "MD5": "13a23cd0c61325fb3369f8369d0a49b6",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.2.21",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16292,
+                "MD5": "cf6f36febc5194f0a9549d8d6faed066",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.2.21",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4987,
+                "MD5": "c4aca63bf7854c77240569fa794768ed",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.2.21:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2540054,
+                "MD5": "33239abc725afb237ad036043538627c",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.2.21:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4367198,
+                "MD5": "703656e85bb6af1eb5557e0b65bb7468",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 13796791,
+                "MD5": "49d0ce9681f0ffd3c5a177f6ad45c80b",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10909711,
+                "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 9349972,
+                "MD5": "5de62b239289ed8e596b386766b87b41",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:1.0.8",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 85028,
+                "MD5": "102e2b8d94eec8aca0da835d2d3a359e",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/securejarhandler/1.0.8/securejarhandler-1.0.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:5.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42838,
+                "MD5": "c8b735cdfe9975a569626d72ad40377f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:4.0.15-4.x",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 22072,
+                "MD5": "8509a972b27c9f037d55c61e16fc051f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forgespi/4.0.15-4.x/forgespi-4.0.15-4.x.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:9.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 129301,
+                "MD5": "dca70519c3e53ac018d6f50c6f90cd38",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/modlauncher/9.1.3/modlauncher-9.1.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.0.0",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 7828,
+                "MD5": "1632575563bb6ead2ae3a087945f18be",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.2.21",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 257596,
+                "MD5": "31a242ef4cfd6bb6051f2d2adbf592cd",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.2.21/fmlloader-1.18.2-40.2.21.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "shadows.fastsuite:fastsuite:3.0.2@jar",
+          "name": "Fast Suite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11185,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/FastSuite-1.18.2-3.0.2.jar",
+            "MD5": "45d1de27c9e69e614a3b480a03809bc8"
+          }
+        },
+        {
+          "id": "einstein.jmc:jmc:4.1@jar",
+          "name": "Just More Cakes!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1426589,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/optionalon/jmc-4.1-1.18.2.jar",
+            "MD5": "00aa009a3796bcb57d24e713c081d0e2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15445,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/lazydfu-1.0-1.18+.jar",
+            "MD5": "f90813b92c422c9f159c5e7d89167233"
+          }
+        },
+        {
+          "id": "virtuoel.no_fog:no_fog:1.3.2+1.18.2-forge@jar",
+          "name": "No Fog",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54474,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/NoFog-1.3.2_1.18.2-forge.jar",
+            "MD5": "a508dfa29c81e33bff894d4e8f18ea9d"
+          }
+        },
+        {
+          "id": "virtuoel.pehkui:pehkui:3.8.0+1.18.2-forge@jar",
+          "name": "Pehkui",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 632092,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/optionalon/Pehkui-3.8.0+1.18.2-forge.jar",
+            "MD5": "c284390f4d550c3a4e4c2b5697513dfb"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:6.6.7@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 224281,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/Placebo-1.18.2-6.6.7.jar",
+            "MD5": "1b527f8b032cb04dcb5ae8152a1ef460"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:radium:0.7.10@jar",
+          "name": "Radium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 501920,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/radium-0.7.10.jar",
+            "MD5": "d72376e7e73009740ff0cc0f5618fd45"
+          }
+        },
+        {
+          "id": "net.caffeinemc.phosphor:radon:0.8.1@jar",
+          "name": "Radon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 103987,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/radon-0.8.1.jar",
+            "MD5": "7f3266e587447284839aecd9b1b5d8a4"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:rubidium:0.5.6@jar",
+          "name": "Rubidium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342466,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/rubidium-0.5.6.jar",
+            "MD5": "8ff531d3619c39e9e059e400f63f035b"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods.sodiumextra.client:sodiumextra:0.4.18+mc1.18.2-build.86@jar",
+          "name": "Rubidium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 342856,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/rubidium-extra-0.4.18+mc1.18.2-build.86.jar",
+            "MD5": "0a234916382d4d766bd9b2208c18310b"
+          }
+        },
+        {
+          "id": "me.flashyreese.mods:reeses_sodium_options:1.0.8-mc1.18.2@jar",
+          "name": "TexTrue's Rubidium Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212028,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/required/TextruesRubidiumOptions-1.0.8-mc1.18.2.jar",
+            "MD5": "64f36ba3399d8ba168701dbfb5421035"
+          }
+        },
+        {
+          "id": "net.montoyo.wd:webdisplays:1.0.0@jar",
+          "name": "MCEF",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 766986,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E4%BD%93%E3%81%8C%E3%81%A1%E3%81%A3%E3%81%A1%E3%82%83%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F%EF%BC%81-1.18.2/forgemods/optionalon/webdisplays-1.0.0.jar",
+            "MD5": "c4115727a6d0b972eae9c22b3e745957"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "単発1-1.12.2",
+      "name": "単発1 (Minecraft 1.12.2)",
+      "description": "単発1 Running Minecraft 1.12.2 (Forge v14.23.5.2860)",
+      "icon": "https://media.discordapp.net/attachments/1220364322992291850/1236675446461038624/LoadingText.png?ex=6657da82&is=66568902&hm=11b500c922c04023c6c05e729a66a05b5b3290af775512b07661b7ec11d11ba1&=&format=webp&quality=lossless&width=350&height=350",
+      "version": "1.0.0",
+      "address": "tyaromars.net",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2860:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466148,
+            "MD5": "2b5b6ccfa3c6ffcea9073d13d1ec5236",
+            "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2860",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11799,
+                "MD5": "fdf65dd024faa5c9a51372e5fb975dfe",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/versions/1.12.2-forge-14.23.5.2860/1.12.2-forge-14.23.5.2860.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://tyromarse.wstr.fr/nebula/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:6.3.2@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2439199,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/furniture-6.3.2-1.12.2.jar",
+            "MD5": "c337d9b9b5465ba6ac78a2ca9f3dbf7c"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://tyromarse.wstr.fr/nebula/servers/%E5%8D%98%E7%99%BA1-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        }
+      ]
+    }
+  ]
+}
