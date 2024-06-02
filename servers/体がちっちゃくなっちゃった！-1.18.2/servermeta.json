@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "体がちっちゃくなっちゃった！ (Minecraft 1.18.2)",
+    "description": "体がちっちゃくなっちゃった！ Running Minecraft 1.18.2 (Forge v40.2.21)",
+    "icon": "https://media.discordapp.net/attachments/1220364322992291850/1236675446461038624/LoadingText.png?ex=6657da82&is=66568902&hm=11b500c922c04023c6c05e729a66a05b5b3290af775512b07661b7ec11d11ba1&=&format=webp&quality=lossless&width=350&height=350",
+    "address": "tyaromars.net",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "40.2.21"
+  },
+  "untrackedFiles": []
+}
